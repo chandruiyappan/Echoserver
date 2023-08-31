@@ -60,7 +60,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 print(f"Received {data!r}")
 ```
 ## OUTPUT:
+### echoclient.py
 ![ecdhoclient](https://github.com/Roselineb/Echoserver/assets/128909895/52862f1c-bba0-4f1f-aeda-0dda2367d68a)
+### echoserver.py
 ![echoserver](https://github.com/Roselineb/Echoserver/assets/128909895/3ecf757f-f243-407b-80fb-6d16fb769f03)
 
 
