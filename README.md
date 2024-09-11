@@ -20,6 +20,13 @@ Implementation using Python code
 Testing the server and client 
 
 ## PROGRAM:
+
+```
+Name:Kavi Keerthana R
+Reg No:212222100022
+```
+
+## Server:
 ```
 import socket
 
@@ -40,6 +47,8 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
                 break
             conn.sendall(data)
 ```
+
+## Client:
 ```
 import socket
 
@@ -57,6 +66,13 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 print(f"Received {data!r}")
 ```
 ## OUTPUT:
+## Server:
+![Screenshot 2024-09-11 192722](https://github.com/user-attachments/assets/ff197928-277a-4b54-9f90-4b995820a983)
+
+## Client:
+![Screenshot 2024-09-11 192738](https://github.com/user-attachments/assets/6dee04a9-1f6b-42cb-9aaf-5aaa07725251)
+
+
 
 ## RESULT:
 The program is executed successfully
